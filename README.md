@@ -5,6 +5,9 @@
 
 #### 软件架构
 软件架构说明
+SpringBoot+ SpringMVC+Mybatis
+
+* 关于StateResult是返回操作的状态 + 返回信息
 
 
 #### 安装教程
