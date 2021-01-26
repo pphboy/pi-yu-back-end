@@ -8,6 +8,10 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
+
+/**
+ * 用户 类
+ */
 @Data
 @NoArgsConstructor
 @Accessors(chain = true)
@@ -30,4 +34,5 @@ public class User {
     private String birthDate;
     private String headImage;
     private Boolean activeStatus;
+    private String alipayAccount; // 支付宝账号
 }
