@@ -2,6 +2,7 @@ package com.pipihao.piyu.service.impl;
 
 import com.pipihao.piyu.common.StateResult;
 import com.pipihao.piyu.mapper.UserMapper;
+import com.pipihao.piyu.mapper.WalletMapper;
 import com.pipihao.piyu.pojo.User;
 import com.pipihao.piyu.service.UserService;
 import com.pipihao.piyu.utils.JWTUtils;
@@ -20,6 +21,9 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
+    @Autowired
+    private WalletMapper walletMapper;
+
     /**
      *  注册
      *  默认值 ： username,password,salt,register_date,email
@@ -29,7 +33,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public StateResult registerUser(User user) {
         if(StringUtils.isEmpty(user.getUsername())||StringUtils.isEmpty(user.getPassword()) || StringUtils.isEmpty(user.getEmail()))
-            return StateResult.getExample(false,"参数错误",user);
+            return StateResult.getExample(false,"参数错误",null);
         /*如果userByEmail为true测说明邮箱已存在*/
         if(userMapper.getUserByEmail(user.getEmail()))
             return StateResult.getExample(false,"邮箱已注册",user.getEmail());
@@ -49,7 +53,8 @@ public class UserServiceImpl implements UserService {
 
             /*注册*/
             userMapper.saveUser(user);
-
+            /*开通钱包*/
+            walletMapper.sendNewWalletAboutUser(user.getId());
             /*返回注册用户*/
             return StateResult.getExample(true,"注册成功",user.getUsername());
         }

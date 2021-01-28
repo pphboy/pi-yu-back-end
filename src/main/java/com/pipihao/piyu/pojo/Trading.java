@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -16,7 +17,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Accessors(chain = true)
 @ToString
-public class Trading {
+public class Trading implements Serializable {
     private int id; //这里使用UUID
     private int userId; //出钱的用户
     private int rUserId;// 收钱的用户

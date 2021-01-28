@@ -1,12 +1,14 @@
 package com.pipihao.piyu.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import java.io.Serializable;
 import java.util.Date;
 
 
@@ -17,17 +19,17 @@ import java.util.Date;
 @NoArgsConstructor
 @Accessors(chain = true)
 @ToString
-public class User {
+public class User implements Serializable {
     @JsonIgnore
     private Integer id;
-    @JsonIgnore
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String username;
     private Integer gender; // 1，男，2，女，0 空
     private String address;
-    @JsonIgnore
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //只写
     private String email;
     private String introduction;
-    @JsonIgnore
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
     @JsonIgnore
     private String salt;

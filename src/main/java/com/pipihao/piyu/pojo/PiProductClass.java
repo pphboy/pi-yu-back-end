@@ -5,6 +5,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
+
 
 /**
  * 皮物的分类
@@ -14,7 +16,7 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @Accessors(chain = true)
 @ToString
-public class PiProductClass {
+public class PiProductClass implements Serializable {
     private int id;
     private String className;
     private String createDate;

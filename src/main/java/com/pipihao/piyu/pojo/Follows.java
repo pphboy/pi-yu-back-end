@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -14,7 +15,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Accessors(chain = true)
 @ToString
-public class Follows {
+public class Follows implements Serializable {
     private int id;
     private int userId; //被关注的用户
     private int fUserId; //粉丝id

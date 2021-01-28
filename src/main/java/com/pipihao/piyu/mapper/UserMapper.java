@@ -17,7 +17,7 @@ public interface UserMapper {
      * @param user
      * @return
      */
-    @Insert("INSERT INTO `piyu`.`user`(`username`,`password`,`salt`,`register_date`, `email`,`active_status`) VALUES (#{username},#{password},#{salt}, now(),#{email},0)")
+    /*此处语句在xml内*/
     public boolean saveUser(User user);
 
     /**

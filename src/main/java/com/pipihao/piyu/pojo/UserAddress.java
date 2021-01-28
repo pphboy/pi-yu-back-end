@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -15,7 +16,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Accessors(chain = true)
 @ToString
-public class UserAddress {
+public class UserAddress implements Serializable {
     private int id; // 自增
     private int userId;
     private String name; // 收货人姓名
