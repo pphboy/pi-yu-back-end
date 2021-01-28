@@ -44,7 +44,9 @@ public interface UserMapper {
     @Select("select * from user where username = #{username}")
     public User getUserByUsername(String username);
 
-
-    @Update("")
+    @Update("UPDATE `user` SET `birth_date` = #{birthDate}, `gender` = #{gender}, `address` = #{address}, `introduction` = #{introduction} , `head_image` = #{headImage} , `alipay_account` = #{alipayAccount} WHERE `id` = #{id}")
     public boolean setUserInfo(User user);
+
+    @Select("select `birth_date`,`gender`,`address`,`introduction`,`head_image`,`alipay_account` from user where id = #{id}")
+    public User getUserInfo(Integer id);
 }

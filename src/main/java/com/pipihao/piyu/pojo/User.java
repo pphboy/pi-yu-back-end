@@ -1,5 +1,6 @@
 package com.pipihao.piyu.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
@@ -17,21 +18,27 @@ import java.util.Date;
 @Accessors(chain = true)
 @ToString
 public class User {
+    @JsonIgnore
     private Integer id;
+    @JsonIgnore
     private String username;
-    private Boolean gender;
+    private Integer gender; // 1，男，2，女，0 空
     private String address;
+    @JsonIgnore
     private String email;
     private String introduction;
+    @JsonIgnore
     private String password;
+    @JsonIgnore
     private String salt;
     @DateTimeFormat(pattern = "yyyy-mm-dd HH:MM:ss")
-    private String registerDate;
+    private Date registerDate;
     @DateTimeFormat(pattern = "yyyy-mm-dd HH:MM:ss")
-    private String lastLoginTime;
+    private Date lastLoginTime;
     @DateTimeFormat(pattern = "yyyy-mm-dd HH:MM:ss")
-    private String birthDate;
+    private Date birthDate;
     private String headImage;
+    @JsonIgnore
     private Boolean activeStatus;
     private String alipayAccount; // 支付宝账号
 }

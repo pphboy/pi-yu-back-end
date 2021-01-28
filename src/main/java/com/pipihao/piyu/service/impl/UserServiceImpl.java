@@ -4,11 +4,14 @@ import com.pipihao.piyu.common.StateResult;
 import com.pipihao.piyu.mapper.UserMapper;
 import com.pipihao.piyu.pojo.User;
 import com.pipihao.piyu.service.UserService;
+import com.pipihao.piyu.utils.JWTUtils;
+import com.pipihao.piyu.utils.MapPojoUtil;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.UUID;
 
 @Service
@@ -50,6 +53,31 @@ public class UserServiceImpl implements UserService {
             /*返回注册用户*/
             return StateResult.getExample(true,"注册成功",user.getUsername());
         }
+    }
+
+    /**
+     * 设置用户信息
+     * @param user
+     * @return
+     */
+    @Override
+    public StateResult setUserInfo(User user,String token) {
+        // 设置id
+        user.setId(Integer.parseInt(JWTUtils.verifyToken(token).getClaim("userId").asString()));
+        if(this.userMapper.setUserInfo(user)) return StateResult.getExample(true,"设置用户信息成功",null);
+        else return StateResult.getExample(false,"设置用户信息失败",null);
+    }
+
+    /**
+     * 获取用户信息
+     * @param request
+     * @return
+     */
+    @Override
+    public StateResult getUserInfo(HttpServletRequest request) {
+        User user = this.userMapper.getUserInfo(Integer.parseInt(JWTUtils.verifyToken(request.getHeader("token")).getClaim("userId").asString()));
+        if(user != null) return StateResult.getExample(true,"获取用户成功",user);
+        else return StateResult.getExample(false,"获取用户失败",null);
     }
 
 }
