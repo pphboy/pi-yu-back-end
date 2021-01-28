@@ -4,6 +4,7 @@ import com.pipihao.piyu.pojo.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
@@ -43,4 +44,7 @@ public interface UserMapper {
     @Select("select * from user where username = #{username}")
     public User getUserByUsername(String username);
 
+
+    @Update("")
+    public boolean setUserInfo(User user);
 }

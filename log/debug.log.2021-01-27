@@ -1,0 +1,758 @@
+2021-01-27 09:52:27 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.PiProductServiceTest], using SpringBootContextLoader
+2021-01-27 09:52:27 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.PiProductServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-27 09:52:27 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-27 09:52:27 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@795cd85e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@59fd97a8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f5ac9e4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@123ef382, org.springframework.test.context.support.DirtiesContextTestExecutionListener@dbf57b3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@384ad17b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@61862a7f, org.springframework.test.context.event.EventPublishingTestExecutionListener@441772e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7334aada, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1d9b7cce, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4d9e68d0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@42e99e4a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@14dd9eb7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@52e6fdee]
+2021-01-27 09:52:30 [INFO]-[com.pipihao.service.PiProductServiceTest] Starting PiProductServiceTest on IBM with PID 9700 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 09:52:30 [INFO]-[com.pipihao.service.PiProductServiceTest] No active profile set, falling back to default profiles: default
+2021-01-27 09:53:01 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 10064 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 09:53:01 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 09:53:02 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 09:53:02 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 09:53:57 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 6996 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 09:53:57 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 09:53:57 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 09:53:57 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 09:53:59 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 09:54:00 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2784 ms
+2021-01-27 09:54:00 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 09:54:00 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 09:54:00 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 09:54:01 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 09:54:01 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 09:54:01 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 09:54:01 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.846 seconds (JVM running for 7.286)
+2021-01-27 09:55:05 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 09:55:05 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 10:00:53 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 9060 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:00:53 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:00:53 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:00:53 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:00:55 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:00:55 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1843 ms
+2021-01-27 10:00:55 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:00:56 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:00:56 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:00:56 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:00:56 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:00:56 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:00:56 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 3.64 seconds (JVM running for 5.723)
+2021-01-27 10:01:05 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:01:05 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 8 ms
+2021-01-27 10:38:15 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 11884 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:38:15 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:38:15 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:38:15 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:38:17 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:38:17 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2386 ms
+2021-01-27 10:38:18 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:38:18 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:38:18 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:38:18 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:38:18 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:38:18 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:38:18 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.041 seconds (JVM running for 5.929)
+2021-01-27 10:38:55 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:38:55 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 10 ms
+2021-01-27 10:39:42 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 9692 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:39:42 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:39:42 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:39:42 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:39:44 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:39:45 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2165 ms
+2021-01-27 10:39:45 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:39:45 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:39:45 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:39:45 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:39:45 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:39:45 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:39:45 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 3.849 seconds (JVM running for 5.742)
+2021-01-27 10:39:56 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:39:56 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 10 ms
+2021-01-27 10:40:42 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:40:42 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 10:40:42 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:40:42 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:40:42 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 9692 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:40:42 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:40:42 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:40:43 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 618 ms
+2021-01-27 10:40:43 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:40:43 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-27 10:40:43 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:40:43 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:40:43 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:40:43 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:40:43 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.157 seconds (JVM running for 63.259)
+2021-01-27 10:40:43 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 10:40:57 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:40:57 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 10:42:58 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 10212 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:42:58 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:42:58 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:42:58 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:43:00 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:43:00 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1847 ms
+2021-01-27 10:43:00 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:43:00 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:43:01 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:43:01 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:43:01 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:43:01 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:43:01 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 3.433 seconds (JVM running for 5.522)
+2021-01-27 10:43:11 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:43:11 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 5 ms
+2021-01-27 10:43:40 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 12928 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:43:40 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:43:40 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:43:40 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:43:42 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:43:43 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2190 ms
+2021-01-27 10:43:43 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:43:43 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:43:43 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:43:43 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:43:43 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:43:44 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:43:44 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.015 seconds (JVM running for 5.746)
+2021-01-27 10:43:47 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:43:47 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 8 ms
+2021-01-27 10:44:09 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:44:09 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 10:44:10 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:44:10 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:44:10 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 12928 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:44:10 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:44:10 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:44:10 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 623 ms
+2021-01-27 10:44:10 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:44:10 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-27 10:44:11 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:44:11 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:44:11 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:44:11 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:44:11 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.143 seconds (JVM running for 33.055)
+2021-01-27 10:44:11 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 10:44:13 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:44:13 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-27 10:44:13 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:44:13 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:44:13 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 12928 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:44:13 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:44:13 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:44:13 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 636 ms
+2021-01-27 10:44:13 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:44:14 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} inited
+2021-01-27 10:44:14 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:44:14 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:44:14 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:44:14 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:44:14 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.137 seconds (JVM running for 36.07)
+2021-01-27 10:44:14 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 10:44:16 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:44:16 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 3 ms
+2021-01-27 10:45:10 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:45:10 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} closed
+2021-01-27 10:45:10 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:45:10 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:45:10 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 12928 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:45:10 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:45:11 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:45:11 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 590 ms
+2021-01-27 10:45:11 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:45:11 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-4} inited
+2021-01-27 10:45:11 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:45:11 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:45:11 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:45:11 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:45:11 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.007 seconds (JVM running for 93.444)
+2021-01-27 10:45:11 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 10:45:18 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:45:18 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 4 ms
+2021-01-27 10:45:38 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 9128 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:45:38 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:45:38 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:45:38 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:45:40 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:45:40 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2348 ms
+2021-01-27 10:45:41 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:45:41 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:45:41 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:45:41 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:45:41 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:45:41 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:45:41 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.024 seconds (JVM running for 5.69)
+2021-01-27 10:45:48 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:45:48 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 10:47:26 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 6896 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:47:26 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:47:26 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:47:26 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:47:28 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:47:28 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2190 ms
+2021-01-27 10:47:29 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:47:29 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:47:29 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:47:29 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:47:29 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:47:29 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:47:29 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.221 seconds (JVM running for 6.485)
+2021-01-27 10:47:34 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:47:34 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 11 ms
+2021-01-27 10:48:20 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:48:20 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 10:48:21 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:48:21 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:48:21 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 6896 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:48:21 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:48:22 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:48:22 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 916 ms
+2021-01-27 10:48:22 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:48:22 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-27 10:48:22 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:48:22 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:48:22 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:48:22 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:48:22 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.226 seconds (JVM running for 59.233)
+2021-01-27 10:48:22 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 10:48:26 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:48:26 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 17 ms
+2021-01-27 10:49:11 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 13140 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:49:11 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:49:12 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:49:12 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:49:16 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:49:17 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4970 ms
+2021-01-27 10:49:17 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:49:17 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:49:18 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:49:18 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:49:19 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:49:19 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:49:19 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 8.226 seconds (JVM running for 10.239)
+2021-01-27 10:49:20 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:49:20 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 53 ms
+2021-01-27 10:49:48 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5344 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 10:49:48 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 10:49:48 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 10:49:48 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 10:49:52 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 10:49:52 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4061 ms
+2021-01-27 10:49:53 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 10:49:53 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 10:49:54 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 10:49:54 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 10:49:54 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 10:49:54 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 10:49:54 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 7.052 seconds (JVM running for 9.772)
+2021-01-27 10:49:56 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 10:49:56 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 10 ms
+2021-01-27 15:39:05 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 1720 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 15:39:05 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 15:39:05 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 15:39:05 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 15:39:08 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 15:39:08 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2554 ms
+2021-01-27 15:39:08 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 15:39:08 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 15:39:08 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 15:39:09 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 15:39:09 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 15:39:09 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 15:39:09 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.542 seconds (JVM running for 7.281)
+2021-01-27 15:39:36 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 15:39:36 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 15:48:49 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 7108 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 15:48:49 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 15:48:49 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 15:48:49 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 15:48:51 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 15:48:52 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2918 ms
+2021-01-27 15:48:52 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 15:48:52 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 15:48:52 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 15:48:52 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 15:48:53 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 15:48:53 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 15:48:53 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.806 seconds (JVM running for 7.095)
+2021-01-27 15:49:21 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 15:49:21 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 10 ms
+2021-01-27 15:51:58 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 7444 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 15:51:58 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 15:51:58 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 15:51:58 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 15:52:01 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 15:52:01 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2512 ms
+2021-01-27 15:52:01 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 15:52:01 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 15:52:01 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 15:52:02 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 15:52:02 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 15:52:02 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 15:52:02 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.716 seconds (JVM running for 7.491)
+2021-01-27 15:52:12 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 15:52:12 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 11 ms
+2021-01-27 15:56:13 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 15:56:13 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 15:57:15 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 14288 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 15:57:15 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 15:57:15 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 15:57:15 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 15:57:17 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 15:57:17 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1942 ms
+2021-01-27 15:57:17 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 15:57:17 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 15:57:18 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 15:57:18 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 15:57:18 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 15:57:18 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 15:57:18 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 3.773 seconds (JVM running for 5.675)
+2021-01-27 15:57:44 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 15:57:44 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 16:01:58 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 11368 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 16:01:58 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 16:01:59 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 16:01:59 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 16:02:01 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 16:02:01 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2516 ms
+2021-01-27 16:02:01 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 16:02:02 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 16:02:02 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 16:02:02 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 16:02:02 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 16:02:02 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 16:02:02 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.844 seconds (JVM running for 7.447)
+2021-01-27 16:37:45 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 16:37:45 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 34 ms
+2021-01-27 16:45:34 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 16:45:34 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 16:45:45 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 1212 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 16:45:45 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 16:45:45 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 16:45:45 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 16:45:47 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 16:45:47 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2173 ms
+2021-01-27 16:45:47 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 16:45:48 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 16:45:48 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 16:45:48 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 16:45:48 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 16:45:48 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 16:45:48 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.458 seconds (JVM running for 7.223)
+2021-01-27 16:51:24 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 16:51:24 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 16:51:24 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 16:51:24 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 16:51:24 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 1212 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 16:51:24 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 16:51:25 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 16:51:25 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1008 ms
+2021-01-27 16:51:26 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 16:51:26 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-27 16:51:26 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 16:51:26 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 16:51:26 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 16:51:26 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 16:51:26 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.901 seconds (JVM running for 345.331)
+2021-01-27 16:51:26 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 16:51:47 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 16:51:47 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 14 ms
+2021-01-27 16:52:07 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 16:52:07 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-27 16:52:13 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 15180 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 16:52:13 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 16:52:13 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 16:52:13 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 16:52:16 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 16:52:16 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 3314 ms
+2021-01-27 16:52:16 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 16:52:17 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 16:52:17 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 16:52:18 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 16:52:18 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 16:52:18 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 16:52:18 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 5.962 seconds (JVM running for 8.193)
+2021-01-27 16:52:25 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 16:52:25 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 17:25:18 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-27 17:25:21 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-27 17:25:26 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-27 17:25:31 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-27 17:56:19 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 12536 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 17:56:19 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 17:56:19 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 17:56:19 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 17:56:21 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 17:56:22 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2350 ms
+2021-01-27 17:56:22 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 17:56:22 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 17:56:22 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 17:56:22 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 17:56:23 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 17:56:23 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 17:56:23 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.196 seconds (JVM running for 6.039)
+2021-01-27 17:56:35 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 17:56:35 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 11 ms
+2021-01-27 18:35:35 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 6344 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:35:35 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:35:35 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:35:35 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:35:37 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:35:37 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2045 ms
+2021-01-27 18:35:38 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:35:38 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:35:38 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:35:38 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:35:38 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:35:38 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:35:38 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 3.866 seconds (JVM running for 5.921)
+2021-01-27 18:36:03 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:36:03 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 18:38:05 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 12852 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:38:05 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:38:05 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:38:05 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:38:08 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:38:08 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2786 ms
+2021-01-27 18:38:08 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:38:08 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:38:09 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:38:09 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:38:09 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:38:09 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:38:09 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 5.097 seconds (JVM running for 7.067)
+2021-01-27 18:38:14 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:38:14 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 18:40:21 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 11580 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:40:21 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:40:21 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:40:21 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:40:24 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:40:24 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2317 ms
+2021-01-27 18:40:24 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:40:24 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:40:24 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:40:24 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:40:25 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:40:25 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:40:25 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.004 seconds (JVM running for 5.781)
+2021-01-27 18:40:32 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:40:32 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-27 18:42:11 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 3796 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:42:11 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:42:12 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:42:12 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:42:14 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:42:14 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2500 ms
+2021-01-27 18:42:14 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:42:14 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:42:15 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:42:15 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:42:15 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:42:15 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:42:15 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.631 seconds (JVM running for 6.614)
+2021-01-27 18:42:27 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:42:27 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 14 ms
+2021-01-27 18:43:22 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 15072 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:43:22 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:43:22 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:43:22 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:43:24 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:43:25 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2370 ms
+2021-01-27 18:43:25 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:43:25 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:43:25 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:43:25 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:43:26 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:43:26 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:43:26 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.147 seconds (JVM running for 5.851)
+2021-01-27 18:43:48 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:43:48 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 8 ms
+2021-01-27 18:45:11 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 16256 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:45:11 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:45:11 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:45:11 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:45:14 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:45:14 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2456 ms
+2021-01-27 18:45:14 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:45:14 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:45:15 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:45:15 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:45:15 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:45:15 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:45:15 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.173 seconds (JVM running for 6.086)
+2021-01-27 18:45:36 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:45:36 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 7 ms
+2021-01-27 18:46:24 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 16120 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:46:24 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:46:24 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:46:24 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:46:26 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:46:26 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2614 ms
+2021-01-27 18:46:27 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:46:27 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:46:27 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:46:27 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:46:27 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:46:27 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:46:27 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.454 seconds (JVM running for 6.311)
+2021-01-27 18:46:47 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:46:47 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 30 ms
+2021-01-27 18:47:32 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:47:32 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 18:47:32 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:47:32 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:47:32 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 16120 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:47:32 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:47:32 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:47:32 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 686 ms
+2021-01-27 18:47:33 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:47:33 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-27 18:47:33 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:47:33 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:47:33 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:47:33 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:47:33 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.252 seconds (JVM running for 72.029)
+2021-01-27 18:47:33 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 18:47:39 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:47:39 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 12 ms
+2021-01-27 18:49:39 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:49:39 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-27 18:49:40 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:49:40 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:49:40 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 16120 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:49:40 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:49:40 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:49:40 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 673 ms
+2021-01-27 18:49:40 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:49:41 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} inited
+2021-01-27 18:49:41 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:49:41 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:49:41 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:49:41 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:49:41 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.125 seconds (JVM running for 199.845)
+2021-01-27 18:49:41 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 18:50:00 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:50:00 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 7 ms
+2021-01-27 18:52:03 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 15384 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:52:03 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:52:03 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:52:03 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:52:05 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:52:05 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2346 ms
+2021-01-27 18:52:05 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:52:05 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:52:06 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:52:06 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:52:06 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:52:07 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:52:07 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.667 seconds (JVM running for 6.745)
+2021-01-27 18:52:27 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:52:27 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 10 ms
+2021-01-27 18:53:02 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 13900 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:53:02 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:53:03 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:53:03 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:53:05 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:53:05 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2253 ms
+2021-01-27 18:53:05 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:53:05 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:53:05 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:53:06 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:53:06 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:53:06 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:53:06 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.111 seconds (JVM running for 5.943)
+2021-01-27 18:53:42 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 11068 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:53:42 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:53:42 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:53:42 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:53:44 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:53:44 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2054 ms
+2021-01-27 18:53:44 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:53:44 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 18:53:44 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:53:45 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:53:45 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:53:45 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:53:45 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 3.992 seconds (JVM running for 5.749)
+2021-01-27 18:53:52 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:53:52 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 6 ms
+2021-01-27 18:57:46 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:57:46 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 18:57:46 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:57:46 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:57:46 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 11068 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:57:46 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:57:47 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:57:47 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 590 ms
+2021-01-27 18:57:47 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:57:47 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-27 18:57:47 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:57:47 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:57:47 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:57:47 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:57:47 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.125 seconds (JVM running for 248.538)
+2021-01-27 18:57:47 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 18:57:49 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:57:49 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-27 18:57:49 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 18:57:49 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 18:57:50 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 11068 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 18:57:50 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 18:57:50 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 18:57:50 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 753 ms
+2021-01-27 18:57:50 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 18:57:50 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} inited
+2021-01-27 18:57:51 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 18:57:51 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 18:57:51 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 18:57:51 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 18:57:51 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.238 seconds (JVM running for 251.748)
+2021-01-27 18:57:51 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 18:57:51 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 18:57:51 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 4 ms
+2021-01-27 19:17:37 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 15296 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:17:37 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:17:37 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:17:37 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:17:40 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:17:40 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2682 ms
+2021-01-27 19:17:40 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:17:40 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 19:17:41 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:17:41 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:17:41 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:17:41 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:17:41 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.498 seconds (JVM running for 6.554)
+2021-01-27 19:17:48 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:17:48 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 7 ms
+2021-01-27 19:18:08 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:18:08 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 19:18:08 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:18:08 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:18:08 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 15296 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:18:08 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:18:09 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:18:09 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 636 ms
+2021-01-27 19:18:09 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:18:09 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-27 19:18:09 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:18:09 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:18:09 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:18:10 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:18:10 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.337 seconds (JVM running for 35.114)
+2021-01-27 19:18:10 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 19:18:11 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:18:11 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-27 19:18:12 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:18:12 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:18:12 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 15296 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:18:12 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:18:12 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:18:12 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 742 ms
+2021-01-27 19:18:12 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:18:12 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} inited
+2021-01-27 19:18:13 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:18:13 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:18:13 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:18:13 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:18:13 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.21 seconds (JVM running for 38.274)
+2021-01-27 19:18:13 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 19:18:22 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:18:22 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 10 ms
+2021-01-27 19:20:49 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:20:49 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} closed
+2021-01-27 19:20:49 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:20:49 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:20:49 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 15296 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:20:49 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:20:50 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:20:50 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 845 ms
+2021-01-27 19:20:50 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:20:50 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-4} inited
+2021-01-27 19:20:50 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:20:50 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:20:50 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:20:50 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:20:50 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.275 seconds (JVM running for 196.052)
+2021-01-27 19:20:50 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 19:21:07 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:21:07 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 7 ms
+2021-01-27 19:21:58 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 12668 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:21:58 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:21:58 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:21:58 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:21:59 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:22:00 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1777 ms
+2021-01-27 19:22:00 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:22:00 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 19:22:00 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:22:00 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:22:00 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:22:00 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:22:00 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 3.309 seconds (JVM running for 4.953)
+2021-01-27 19:22:14 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:22:14 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 11 ms
+2021-01-27 19:25:16 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5444 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:25:16 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:25:16 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:25:16 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:25:18 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:25:18 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1950 ms
+2021-01-27 19:25:18 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:25:18 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 19:25:19 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:25:19 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:25:19 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:25:19 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:25:19 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 3.759 seconds (JVM running for 5.636)
+2021-01-27 19:25:30 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:25:30 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 12 ms
+2021-01-27 19:46:22 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 13580 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:46:22 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:46:22 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:46:22 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:46:24 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:46:24 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2144 ms
+2021-01-27 19:46:24 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:46:25 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-27 19:46:25 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:46:25 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:46:25 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:46:25 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:46:25 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.022 seconds (JVM running for 6.246)
+2021-01-27 19:46:40 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:46:40 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 8 ms
+2021-01-27 19:47:36 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:47:36 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-27 19:47:36 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:47:36 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:47:36 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 13580 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:47:36 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:47:36 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:47:36 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 598 ms
+2021-01-27 19:47:37 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:47:37 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-27 19:47:37 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:47:37 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:47:37 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:47:37 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:47:37 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.26 seconds (JVM running for 78.167)
+2021-01-27 19:47:37 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 19:47:40 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:47:40 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-27 19:47:40 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-27 19:47:40 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-27 19:47:40 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 13580 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-27 19:47:40 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-27 19:47:41 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-27 19:47:41 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1184 ms
+2021-01-27 19:47:41 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-27 19:47:42 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} inited
+2021-01-27 19:47:42 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-27 19:47:42 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-27 19:47:42 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-27 19:47:42 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-27 19:47:42 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.794 seconds (JVM running for 82.918)
+2021-01-27 19:47:42 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-27 19:47:50 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-27 19:47:50 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 6 ms

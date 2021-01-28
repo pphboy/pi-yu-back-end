@@ -32,8 +32,13 @@ public class InterceptorConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new JWTInterceptor())
-                .addPathPatterns("/p") //拦截的接口，（理论上是所有的都拦截了）
-                .excludePathPatterns("login","user/register");
+                .addPathPatterns("/**") //拦截的接口，（理论上是所有的都拦截了）
+                .excludePathPatterns(
+                        "/login",
+                        "/user/register",
+                        "/file/upload",
+                        "/class/all" //所有分类
+                ); // 不拦截的链接前端得加上“/”
     }
 
 }

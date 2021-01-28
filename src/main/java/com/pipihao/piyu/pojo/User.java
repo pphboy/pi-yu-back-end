@@ -18,7 +18,6 @@ import java.util.Date;
 @ToString
 public class User {
     private Integer id;
-    private String nickname;
     private String username;
     private Boolean gender;
     private String address;

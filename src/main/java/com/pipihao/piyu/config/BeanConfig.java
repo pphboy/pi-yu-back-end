@@ -8,12 +8,14 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 
 import javax.sql.DataSource;
 
 @Configuration
 public class BeanConfig {
-
 
 //    @Bean(name = "sqlSessionFactory")
 //    public SqlSessionFactory sqlSessionFactory(@Qualifier("dataSource") DataSource dataSource) throws Exception {
@@ -25,5 +27,4 @@ public class BeanConfig {
 //        return sqlSessionFactoryBean.getObject();
 //
 //    }
-
 }

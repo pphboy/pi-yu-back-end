@@ -55,4 +55,11 @@ public class JWTTest {
         System.out.println(verify.getClaim("userId").asInt());
 
     }
+
+    @Test
+    public void testtoken(){
+        DecodedJWT decodedJWT = JWTUtils.verifyToken("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTIzMjM5NTQsInVzZXJJZCI6IjEwMDA2IiwidXNlcm5hbWUiOiJwaXBpaGFvIn0.AzbF3M2p-z6Xx9HmV1QtLaSo5oHWQ7MMs2FzA8wTlAc");
+        System.out.println(decodedJWT.getClaim("username").asString());
+        System.out.println(decodedJWT.getClaim("userId").asString());
+    }
 }

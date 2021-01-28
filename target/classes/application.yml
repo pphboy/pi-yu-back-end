@@ -1,3 +1,6 @@
+file:
+  uploadPath: D:/img/ #文件上传的路径
+  server: http://localhost:81/img/ # 文件服务器地址
 server:
   port: 8081
 spring:
@@ -7,6 +10,10 @@ spring:
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
 
 mybatis:
 #  mapper-locations: classpath:mybatis/mapper/*.xml

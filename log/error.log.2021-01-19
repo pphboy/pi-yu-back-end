@@ -1,0 +1,14 @@
+2021-01-19 13:22:25 [ERROR]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8018 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8018 or configure this application to listen on another port.
+

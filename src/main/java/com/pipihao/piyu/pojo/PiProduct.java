@@ -23,7 +23,7 @@ public class PiProduct {
     private String title;
     private int classId;
     private PiProductClass piProductClass;
-    private String price;
+    private BigDecimal price;
     private String address;
     private String content;
     private boolean status;// 封禁状态 发表时是否需要审核
