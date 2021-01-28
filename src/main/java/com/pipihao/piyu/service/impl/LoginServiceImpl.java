@@ -46,7 +46,9 @@ public class LoginServiceImpl implements LoginService {
             map.put("username",dbUser.getUsername());
             map.put("userId",dbUser.getId().toString());
             map.put("token", JWTUtils.getToken(map));
+            map.put("headImage",dbUser.getHeadImage());
             map.remove("userId");
+            /*清除userid显示*/
             return StateResult.getExample(true,"登录成功",map);
         }else return StateResult.getExample(false,"用户名或密码错误",null);
 
