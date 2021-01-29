@@ -1,5 +1,6 @@
 package com.pipihao.piyu.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -33,14 +34,20 @@ public class User implements Serializable {
     private String password;
     @JsonIgnore
     private String salt;
-    @DateTimeFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
     private Date registerDate;
-    @DateTimeFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
     private Date lastLoginTime;
-    @DateTimeFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date birthDate;
     private String headImage;
     @JsonIgnore
     private Boolean activeStatus;
-    private String alipayAccount; // 支付宝账号
+    private String alipayAccount; // 支付宝
+    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    private Date downDate; //下架时间
+    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    private Date tradeDate; // 交易时间
+    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    private Date updateDate;//更新时间账号
 }

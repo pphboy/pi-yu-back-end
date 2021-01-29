@@ -1,6 +1,8 @@
 package com.pipihao.service;
 
+import com.github.pagehelper.PageInfo;
 import com.pipihao.piyu.PiYuApplication;
+import com.pipihao.piyu.common.PiPage;
 import com.pipihao.piyu.pojo.PiProduct;
 import com.pipihao.piyu.pojo.User;
 import com.pipihao.piyu.service.LoginService;
@@ -37,5 +39,11 @@ public class PiProductServiceTest {
     @Test
     public void testFind(){
 //        System.out.println(this.piProductService.findPiProductByUserId(10006));
+    }
+
+    @Test
+    public void findUserPiProduct(){
+        PiPage piPage = new PiPage();
+        System.out.println(piProductService.findPiProductByUserId(piPage, token));
     }
 }

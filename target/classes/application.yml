@@ -23,6 +23,16 @@ mybatis:
     map-underscore-to-camel-case: true
     cache-enabled: true
 
+#mapper:
+#  mappers: com.pipihao.piyu.mapper
+#  not-empty: false
+#  identity: MYSQL
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 
 #showSql Logging是springboot自带的日志组件
 #logging:
