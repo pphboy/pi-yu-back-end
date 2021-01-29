@@ -9,11 +9,12 @@ import com.pipihao.piyu.mapper.PiProductMapper;
 import com.pipihao.piyu.pojo.PiProduct;
 import com.pipihao.piyu.service.PiProductService;
 import com.pipihao.piyu.utils.JWTUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.thymeleaf.util.StringUtils;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class PiProductServiceImpl implements PiProductService {
@@ -24,7 +25,7 @@ public class PiProductServiceImpl implements PiProductService {
     @Override
     public StateResult sendPiProduct(PiProduct piProduct,String totken) {
         piProduct.setUserId(Integer.parseInt(JWTUtils.verifyToken(totken).getClaim("userId").asString()));
-        if(piProduct.getId() != null){
+        if(!StringUtils.isEmpty(piProduct.getId())){
             /*编辑*/
             if(this.piProductMapper.editPiProduct(piProduct)){
                 return StateResult.getExample(true,"编辑成功",null);
@@ -33,6 +34,7 @@ public class PiProductServiceImpl implements PiProductService {
             }
         }
         /*设置用户Id*/
+        piProduct.setId(UUID.randomUUID().toString().replace("-","").substring(0,16));
         if(this.piProductMapper.sendPiProduct(piProduct)){
             return StateResult.getExample(true,"发布成功",null);
         }else{
@@ -77,7 +79,7 @@ public class PiProductServiceImpl implements PiProductService {
      * @return
      */
     @Override
-    public StateResult getPiProductByUserId(int id, String token) {
+    public StateResult getPiProductByUserId(String id, String token) {
         PiProduct  piProduct= this.piProductMapper.findPiProductByUserId(id, Integer.parseInt(JWTUtils.verifyToken(token).getClaim("userId").asString()));
         if(piProduct != null){
             return StateResult.getExample(true,"获取成功",piProduct);

@@ -21,8 +21,7 @@ import java.util.Date;
 @Accessors(chain = true)
 @ToString
 public class PiProduct implements Serializable {
-
-    private Integer id;
+    private String id; // UUID
     @JsonIgnore
     private int userId;
     private String title;

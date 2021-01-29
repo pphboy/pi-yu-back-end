@@ -14,7 +14,7 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
      * @return
      */
     @Insert("INSERT INTO `pi_product`(`id`, `user_id`, `title`, `class_id`, `price`, `address`, `content`, `status`, `down_shelf`, `sold_status`, `create_date`, `freight`, `trade_status`) " +
-            "VALUES (null,#{userId},#{title}, #{classId}, #{price},#{address},#{content},0,0,0,now(),#{freight}, NULL)")
+            "VALUES (#{id},#{userId},#{title}, #{classId}, #{price},#{address},#{content},0,0,0,now(),#{freight}, NULL)")
     boolean sendPiProduct(PiProduct piProduct);
 
     /**
@@ -68,7 +68,7 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
      * @return
      */
     @Select("select * from pi_product where id = #{id} and user_id = #{userId}")
-    PiProduct findPiProductByUserId(@Param("id") int id,@Param("userId") int userId);
+    PiProduct findPiProductByUserId(@Param("id") String id,@Param("userId") int userId);
 
     /**
      * 编辑皮物

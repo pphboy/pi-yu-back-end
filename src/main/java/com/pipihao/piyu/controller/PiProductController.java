@@ -30,7 +30,7 @@ public class PiProductController {
 
     @PostMapping("get")
     public StateResult getPiProduct(@RequestBody Map<String,Object> map, HttpServletRequest request){
-        return this.piProductService.getPiProductByUserId(Integer.parseInt((String)map.get("id")),request.getHeader("token"));
+        return this.piProductService.getPiProductByUserId((String)map.get("id"),request.getHeader("token"));
     }
 
     /**

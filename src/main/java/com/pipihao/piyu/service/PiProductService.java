@@ -33,5 +33,5 @@ public interface PiProductService {
      * @param token
      * @return
      */
-    public StateResult getPiProductByUserId(int id, String token);
+    public StateResult getPiProductByUserId(String id, String token);
 }
