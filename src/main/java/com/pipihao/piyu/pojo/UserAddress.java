@@ -1,6 +1,7 @@
 package com.pipihao.piyu.pojo;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,7 +19,7 @@ import java.util.Date;
 @Accessors(chain = true)
 @ToString
 public class UserAddress implements Serializable {
-    private int id; // 自增
+    private Integer id; // 自增
     @JsonIgnore
     private int userId;
     private String name; // 收货人姓名
@@ -27,6 +28,7 @@ public class UserAddress implements Serializable {
     private String city; // 市级 char
     private String county; // 县级 char
     private String dailedAddress; //详细地址
-    private boolean is_default; //是否为默认
-    private Date create_time;
+    private boolean isDefault; //是否为默认
+    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    private Date createTime;
 }

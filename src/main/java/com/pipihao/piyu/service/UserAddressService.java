@@ -16,14 +16,6 @@ public interface UserAddressService {
     StateResult findUserAddressByUserId(String token);
 
     /**
-     * 更新收货地址
-     * @param userAddress
-     * @param  token
-     * @return
-     */
-    StateResult updateUserAddress(UserAddress userAddress,String token);
-
-    /**
      * 删除用户收货地址
      * @param  userAddress
      * @param  token
@@ -37,7 +29,7 @@ public interface UserAddressService {
      * @param  token
      * @return
      */
-    StateResult insertUserAddress(UserAddress userAddress,String token);
+    StateResult sendUserAddress(UserAddress userAddress,String token);
 
     /**
      * 设置收货地址默认

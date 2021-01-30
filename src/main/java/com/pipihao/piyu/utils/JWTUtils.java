@@ -8,7 +8,7 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 import java.util.Calendar;
 import java.util.Map;
 
-public class JWTUtils {
+public class JWTUtils<T> {
 
     private static final String SIGN_KEY = "!A@ASJKSDL:AS@)I(*842309123',.";
 
@@ -37,6 +37,16 @@ public class JWTUtils {
      */
     public static DecodedJWT verifyToken(String token){
         return JWT.require(Algorithm.HMAC256(SIGN_KEY)).build().verify(token);
+    }
+
+    /**
+     * 获取token的值
+     * @param key
+     * @param token
+     * @return
+     */
+    public static String getValue(String key,String token){
+       return JWTUtils.verifyToken(token).getClaim(key).asString();
     }
 
 }

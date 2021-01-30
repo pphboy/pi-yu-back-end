@@ -28,18 +28,7 @@ public class UserAddressServiceImpl implements UserAddressService {
     @Override
     public StateResult findUserAddressByUserId(String token) {
         List<UserAddress>  userAddresses= this.userAddressMapper.findUserAddressByUserId(Integer.parseInt(JWTUtils.verifyToken(token).getClaim("userId").asString()));
-        return null;
-    }
-
-    /**
-     * 更新收货地址
-     * @param userAddress
-     * @param  token
-     * @return
-     */
-    @Override
-    public StateResult updateUserAddress(UserAddress userAddress, String token) {
-        return null;
+        return StateResult.getExample(userAddresses,"获取数据成功","获取数据失败",userAddresses);
     }
 
     /**
@@ -50,18 +39,29 @@ public class UserAddressServiceImpl implements UserAddressService {
      */
     @Override
     public StateResult deleteUserAddress(UserAddress userAddress, String token) {
-        return null;
+        return StateResult.getExample(this.userAddressMapper.deleteUserAddress(userAddress.setUserId(Integer.parseInt(JWTUtils.getValue("userId", token)))),"删除收货地址成功","删除收货地址失败",null);
     }
 
     /**
-     * 添加用户收货地址
+     * 添加用户收货地址/编辑
      * @param userAddress
      * @param  token
      * @return
      */
     @Override
-    public StateResult insertUserAddress(UserAddress userAddress, String token) {
-        return null;
+    public StateResult sendUserAddress(UserAddress userAddress, String token) {
+        if(userAddress.getId() != null){
+            /*编辑*/
+            return StateResult.getExample(this.userAddressMapper.updateUserAddress(userAddress.setUserId(Integer.parseInt(JWTUtils.getValue("userId", token)))),"更新收货地址成功","更新收货地址失败",null);
+        }else{
+            //判断是否超过5条
+            if(this.userAddressMapper.getUserAddressCountByUserId(Integer.parseInt(JWTUtils.getValue("userId",token))) <= 4){
+                /*新增*/
+                return StateResult.getExample(this.userAddressMapper.insertUserAddress(userAddress.setUserId(Integer.parseInt(JWTUtils.getValue("userId", token)))),"添加收货地址成功","添加收货地址失败",null);
+            }else{
+                return StateResult.getExample(false,"最多添加5条记录",null);
+            }
+        }
     }
 
     /**
@@ -72,6 +72,11 @@ public class UserAddressServiceImpl implements UserAddressService {
      */
     @Override
     public StateResult setUserAddressDefault(UserAddress userAddress, String token) {
-        return null;
+        boolean ok = false;
+        /*清当前用户所有的默认状态*/
+        ok = this.userAddressMapper.cleanUserAddressDefault(Integer.parseInt(JWTUtils.getValue("userId",token)));
+        /*设置默认状态*/
+        ok = this.userAddressMapper.setUserAddressDefault(userAddress.setUserId(Integer.parseInt(JWTUtils.getValue("userId",token))));
+        return StateResult.getExample(ok,"设置默认收货地址成功","设置默认收货地址失败",null);
     }
 }

@@ -13,7 +13,7 @@ public interface UserAddressMapper extends tk.mybatis.mapper.common.Mapper<UserA
      * @param userId
      * @return
      */
-    @Select("select * from user_address where user_id = #{userId}")
+    @Select("select * from user_address where user_id = #{userId} order by create_time asc")
     List<UserAddress> findUserAddressByUserId(Integer userId);
 
     /**
@@ -26,12 +26,11 @@ public interface UserAddressMapper extends tk.mybatis.mapper.common.Mapper<UserA
 
     /**
      * 删除用户收货地址
-     * @param id
-     * @param userId
+     * @param userAddress
      * @return
      */
     @Delete("delete from user_address WHERE `id` = #{id} and user_id = #{userId}")
-    boolean deleteUserAddress(Integer id,Integer userId);
+    boolean deleteUserAddress(UserAddress userAddress);
 
     /**
      * 添加用户收货地址
@@ -44,19 +43,18 @@ public interface UserAddressMapper extends tk.mybatis.mapper.common.Mapper<UserA
 
     /**
      * 设置收货地址默认
-     * @param id
-     * @param userId
+     * @param userAddress
      * @return
      */
     @Update("update user_address set is_default = 1 WHERE `id` = #{id} and user_id = #{userId}")
-    boolean setUserAddressDefault(Integer id,Integer userId);
+    boolean setUserAddressDefault(UserAddress userAddress);
 
     /**
      * 清楚当前用户收货地址的默认状态
      * @param userId
      * @return
      */
-    @Update("update user_address set is_default = 1 WHERE user_id = #{userId}")
+    @Update("update user_address set is_default = 0 WHERE user_id = #{userId}")
     boolean cleanUserAddressDefault(Integer userId);
 
     /**
@@ -64,6 +62,6 @@ public interface UserAddressMapper extends tk.mybatis.mapper.common.Mapper<UserA
      * @param userId
      * @return
      */
-    @Select("select * from user_address where user_id = #{userId} ")
+    @Select("select count(*) from user_address where user_id = #{userId} ")
     Integer getUserAddressCountByUserId(Integer userId);
 }
