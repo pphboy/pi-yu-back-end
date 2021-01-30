@@ -1,5 +1,6 @@
 package com.pipihao.piyu.common;
 import lombok.ToString;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.Objects;
 
@@ -8,6 +9,32 @@ import java.util.Objects;
 public class StateResult {
 
     public static final StateResult example = new StateResult();
+
+    /**
+     * 数据效验返回类
+     * @param obj
+     * @param successMsg
+     * @param errorMsg
+     * @param data
+     * @return
+     */
+    public static StateResult getExample(Object obj,String successMsg,String errorMsg,Object data){
+        if (obj == null) {
+            return StateResult.getExample(false,errorMsg,data);
+        }else{
+            if(obj instanceof Boolean){
+                if(!(Boolean) obj){
+                    return StateResult.getExample(false,errorMsg,data);
+                }
+            }
+            if(obj instanceof String){
+                if(StringUtils.isEmpty((String)obj)){
+                    return StateResult.getExample(false,errorMsg,data);
+                }
+            }
+            return StateResult.getExample(true,successMsg,data);
+        }
+    }
 
     /**
      * 返回 信息

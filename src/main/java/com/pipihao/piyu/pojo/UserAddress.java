@@ -1,6 +1,7 @@
 package com.pipihao.piyu.pojo;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
@@ -18,6 +19,7 @@ import java.util.Date;
 @ToString
 public class UserAddress implements Serializable {
     private int id; // 自增
+    @JsonIgnore
     private int userId;
     private String name; // 收货人姓名
     private String phone; // 收货电话
