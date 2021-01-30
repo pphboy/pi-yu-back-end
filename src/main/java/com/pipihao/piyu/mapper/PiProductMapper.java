@@ -44,11 +44,11 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
     List<PiProduct> findSoldOutPiProductByUserId(int userId);
 
     /**
-     * 查询已下回的皮物 3
+     * 查询已下架的皮物 3
      * @param userId
      * @return
      */
-    @Select("select * from `pi_product` where user_id = #{userId} and price is not null and down_shelf = 1 and sold_status = 0 order by create_date desc")
+    @Select("select * from `pi_product` where user_id = #{userId} and price is not null and down_shelf = 1 and sold_status = 0 order by down_date desc")
     @ResultMap("PiProduct")
     List<PiProduct> findDownShelfPiProductByUserId(int userId);
 
@@ -75,7 +75,24 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
      * @param piProduct
      * @return
      */
-    @Update("UPDATE `piyu`.`pi_product` SET  `title` = #{title}, `class_id` = #{classId}, `price` = #{price}, `address` = #{address}, `content` = #{content}, `freight` = ${freight},`update_date` = now() WHERE `id` = #{id} and `user_id` = #{userId}")
+    @Update("UPDATE `piyu`.`pi_product` SET  `title` = #{title}, `class_id` = #{classId}, `price` = #{price}, `address` = #{address}, `content` = #{content}, `freight` = #{freight},`update_date` = now() WHERE `id` = #{id} and `user_id` = #{userId}")
     boolean editPiProduct(PiProduct piProduct);
+
+    /**
+     * 编辑皮帖
+     * @param piProduct
+     * @return
+     */
+    @Update("UPDATE `piyu`.`pi_product` SET  `title` = #{title}, `class_id` = #{classId}, `content` = #{content},`update_date` = now() WHERE `id` = #{id} and `user_id` = #{userId} and price is null")
+    boolean editPiProductArticle(PiProduct piProduct);
+
+    /**
+     * 下架皮物，只能下架一次
+     * @param id
+     * @param userId
+     * @return
+     */
+    @Update("UPDATE `piyu`.`pi_product` SET down_shelf =1,down_date = now()  WHERE `id` = #{id} and `user_id` = #{userId} and sold_status = 0 and down_shelf = 0")
+    boolean downPiProductById(@Param("id") String id,@Param("userId") Integer userId);
 
 }

@@ -27,7 +27,14 @@ public class PiProductServiceImpl implements PiProductService {
         piProduct.setUserId(Integer.parseInt(JWTUtils.verifyToken(totken).getClaim("userId").asString()));
         if(!StringUtils.isEmpty(piProduct.getId())){
             /*编辑*/
-            if(this.piProductMapper.editPiProduct(piProduct)){
+            boolean status;
+            /*有价格就是皮物，没有价格就是皮帖*/
+            if(piProduct.getPrice() != null){
+                status = this.piProductMapper.editPiProduct(piProduct);
+            }else{
+                status = this.piProductMapper.editPiProductArticle(piProduct);
+            }
+            if(status){
                 return StateResult.getExample(true,"编辑成功",null);
             }else{
                 return StateResult.getExample(false,"编辑失败",null);
@@ -85,6 +92,21 @@ public class PiProductServiceImpl implements PiProductService {
             return StateResult.getExample(true,"获取成功",piProduct);
         }else{
             return StateResult.getExample(false,"获取失败，你在做什么操作？请联系管理员",null);
+        }
+    }
+
+    /**
+     * 下架皮物
+     * @param id
+     * @param token
+     * @return
+     */
+    @Override
+    public StateResult downPiProductById(String id, String token) {
+        if(this.piProductMapper.downPiProductById(id,Integer.parseInt(JWTUtils.verifyToken(token).getClaim("userId").asString()))){
+            return StateResult.getExample(true,"下架皮物成功",null);
+        }else{
+            return StateResult.getExample(false,"下架皮物失败，请联系管理员",null);
         }
     }
 }

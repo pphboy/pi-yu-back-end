@@ -34,4 +34,12 @@ public interface PiProductService {
      * @return
      */
     public StateResult getPiProductByUserId(String id, String token);
+
+    /**
+     * 下架皮物
+     * @param id
+     * @param token
+     * @return
+     */
+    public StateResult downPiProductById(String id, String token);
 }

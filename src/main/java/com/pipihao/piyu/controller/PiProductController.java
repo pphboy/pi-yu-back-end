@@ -23,11 +23,23 @@ public class PiProductController {
     }
 
 
+    /**
+     * 有id的时候，是编辑功能，无id的时候是新建
+     * @param piProduct
+     * @param request
+     * @return
+     */
     @PostMapping("/send")
     public StateResult sendPiProduct(@RequestBody PiProduct piProduct, HttpServletRequest request){
         return this.piProductService.sendPiProduct(piProduct,request.getHeader("token"));
     }
 
+    /**
+     * 根据id获取皮物，使用map是因为发过来的数据是json数据
+     * @param map
+     * @param request
+     * @return
+     */
     @PostMapping("get")
     public StateResult getPiProduct(@RequestBody Map<String,Object> map, HttpServletRequest request){
         return this.piProductService.getPiProductByUserId((String)map.get("id"),request.getHeader("token"));
@@ -43,5 +55,17 @@ public class PiProductController {
     @PostMapping
     public StateResult getPiProductByUser(@RequestBody PiPage piPage, HttpServletRequest request){
         return piProductService.findPiProductByUserId(piPage,request.getHeader("token"));
+    }
+
+
+    /**
+     * 下架皮物
+     * @param map
+     * @param request
+     * @return
+     */
+    @PostMapping("down")
+    public StateResult downPiProductById(@RequestBody Map<String,Object> map,HttpServletRequest request){
+        return this.piProductService.downPiProductById((String)map.get("id"),request.getHeader("token"));
     }
 }
