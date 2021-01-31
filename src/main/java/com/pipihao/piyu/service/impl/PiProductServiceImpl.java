@@ -109,4 +109,28 @@ public class PiProductServiceImpl implements PiProductService {
             return StateResult.getExample(false,"下架皮物失败，请联系管理员",null);
         }
     }
+
+    /**
+     * 获取皮物，获取没有被禁止的皮物
+     * @param id
+     * @return
+     */
+    @Override
+    public StateResult getNormalPiProduct(String id) {
+        PiProduct normalPiProduct = this.piProductMapper.findNormalPiProduct(id);
+        return StateResult.getExample(normalPiProduct,"获取皮物成功","访问了一个不存在/或被禁止 的皮物",normalPiProduct);
+    }
+
+    /**
+     * 分页获取当前分类下的皮物<br>
+     * @param piPage
+     * @return
+     */
+    @Override
+    public StateResult findPiProductByClassIdAndPage(PiPage piPage) {
+        PageHelper.startPage(piPage.getPage(),piPage.getSize());
+        List<PiProduct> piProducts= this.piProductMapper.findPiProductByClassIdAndPage(piPage);
+        PageInfo pageInfo = new PageInfo(piProducts);
+        return StateResult.getExample(piProducts,"获取分类皮物成功","获取分类皮物失败，当前分类没有皮物",pageInfo,null);
+    }
 }

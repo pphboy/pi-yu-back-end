@@ -42,4 +42,18 @@ public interface PiProductService {
      * @return
      */
     public StateResult downPiProductById(String id, String token);
+
+    /**
+     * 获取一个正常的皮物
+     * @param id
+     * @return
+     */
+    StateResult getNormalPiProduct(String id);
+
+    /**
+     * 分页获取当前分类的下的皮物
+     * @param piPage
+     * @return
+     */
+    StateResult findPiProductByClassIdAndPage(PiPage piPage);
 }

@@ -23,7 +23,6 @@ import java.util.Date;
 public class User implements Serializable {
     @JsonIgnore
     private Integer id;
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String username;
     private Integer gender; // 1，男，2，女，0 空
     private String address;
@@ -44,10 +43,6 @@ public class User implements Serializable {
     @JsonIgnore
     private Boolean activeStatus;
     private String alipayAccount; // 支付宝
-    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
-    private Date downDate; //下架时间
-    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
-    private Date tradeDate; // 交易时间
     @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
     private Date updateDate;//更新时间账号
 }

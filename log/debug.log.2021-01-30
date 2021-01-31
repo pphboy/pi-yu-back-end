@@ -1,0 +1,912 @@
+2021-01-30 14:52:05 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 13980 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 14:52:06 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 14:52:06 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 14:52:06 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 14:52:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 14:52:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 14:52:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 14:52:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 14:52:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 14:52:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 14:52:10 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 14:52:10 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4461 ms
+2021-01-30 14:52:11 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 14:52:12 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 14:52:14 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 14:52:15 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 14:52:15 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 14:52:15 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 14:52:15 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 14:52:15 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 14:52:15 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 14:52:15 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 14:52:15 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 10.785 seconds (JVM running for 14.804)
+2021-01-30 14:52:30 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 14:52:30 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 22 ms
+2021-01-30 15:13:11 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 17404 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:13:11 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:13:12 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:13:12 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:13:13 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:13:13 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:13:13 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:13:13 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:13:13 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:13:13 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:13:14 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:13:14 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2317 ms
+2021-01-30 15:13:14 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:13:14 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 15:13:15 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:13:15 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:13:15 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:13:15 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:13:15 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:13:15 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:13:15 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:13:15 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:13:15 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.517 seconds (JVM running for 6.528)
+2021-01-30 15:15:05 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 15:15:05 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 6 ms
+2021-01-30 15:18:42 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:18:42 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 15:18:42 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:18:42 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:18:42 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 17404 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:18:42 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:18:43 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:18:43 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:18:43 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:18:43 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:18:43 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:18:43 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:18:43 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:18:43 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 945 ms
+2021-01-30 15:18:43 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:18:43 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-30 15:18:43 [WARN]-[org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'piProductController': Unsatisfied dependency expressed through field 'piProductService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pipihao.piyu.service.PiProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-01-30 15:18:43 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-30 15:18:43 [INFO]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-30 15:18:43 [ERROR]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field piProductService in com.pipihao.piyu.controller.PiProductController required a bean of type 'com.pipihao.piyu.service.PiProductService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.pipihao.piyu.service.PiProductService' in your configuration.
+
+2021-01-30 15:19:29 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 11116 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:19:29 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:19:29 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:19:29 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:19:30 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:19:30 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:19:30 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:19:30 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:19:30 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:19:30 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:19:31 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:19:31 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2038 ms
+2021-01-30 15:19:31 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:19:31 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 15:19:32 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:19:32 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:19:32 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:19:32 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:19:32 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:19:32 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:19:32 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:19:32 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:19:32 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.137 seconds (JVM running for 5.917)
+2021-01-30 15:19:38 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 15:19:38 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 18 ms
+2021-01-30 15:21:13 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-30 15:22:07 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:22:07 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 15:22:07 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:22:07 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:22:08 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 11116 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:22:08 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:22:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:22:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:22:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:22:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:22:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:22:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:22:08 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:22:08 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 787 ms
+2021-01-30 15:22:08 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:22:08 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-30 15:22:09 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:22:09 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:22:09 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:22:09 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:22:09 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:22:09 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:22:09 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:22:09 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:22:09 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.428 seconds (JVM running for 162.723)
+2021-01-30 15:22:09 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-30 15:22:17 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 15:22:17 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 6 ms
+2021-01-30 15:33:09 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5816 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:33:09 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:33:09 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:33:09 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:33:11 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:11 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:11 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:11 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:11 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:11 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:33:11 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:33:11 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2061 ms
+2021-01-30 15:33:12 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:33:12 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 15:33:12 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:33:12 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:33:13 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:33:13 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:33:13 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:33:13 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:33:13 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:33:13 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:33:13 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.257 seconds (JVM running for 6.137)
+2021-01-30 15:33:55 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:33:55 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 15:33:55 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:33:55 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:33:55 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5816 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:33:55 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:33:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:33:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:33:56 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:33:56 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1387 ms
+2021-01-30 15:33:56 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:33:56 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-30 15:33:57 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:33:57 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:33:57 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:33:57 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:33:57 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:33:57 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:33:57 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:33:57 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:33:57 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 2.046 seconds (JVM running for 50.416)
+2021-01-30 15:33:57 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-30 15:34:04 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 15:34:04 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 11 ms
+2021-01-30 15:52:05 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:52:05 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-30 15:52:06 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:52:06 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:52:06 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5816 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:52:06 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:52:06 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:06 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:06 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:06 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:06 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:52:06 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:52:06 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 632 ms
+2021-01-30 15:52:06 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:52:06 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} inited
+2021-01-30 15:52:06 [WARN]-[org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'piProductController': Unsatisfied dependency expressed through field 'piProductService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'piProductServiceImpl' defined in file [D:\Projects\PiYU\pi-yu-back-end\target\classes\com\pipihao\piyu\service\impl\PiProductServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pipihao.piyu.service.impl.PiProductServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4da39f33]
+2021-01-30 15:52:06 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} closed
+2021-01-30 15:52:06 [INFO]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-30 15:52:06 [ERROR]-[org.springframework.boot.SpringApplication] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'piProductController': Unsatisfied dependency expressed through field 'piProductService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'piProductServiceImpl' defined in file [D:\Projects\PiYU\pi-yu-back-end\target\classes\com\pipihao\piyu\service\impl\PiProductServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pipihao.piyu.service.impl.PiProductServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4da39f33]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.pipihao.piyu.PiYuApplication.main(PiYuApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'piProductServiceImpl' defined in file [D:\Projects\PiYU\pi-yu-back-end\target\classes\com\pipihao\piyu\service\impl\PiProductServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pipihao.piyu.service.impl.PiProductServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4da39f33]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 25 more
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.pipihao.piyu.service.impl.PiProductServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4da39f33]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	... 34 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/pipihao/piyu/mapper/PiProductMapper;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.pipihao.piyu.mapper.PiProductMapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 44 more
+2021-01-30 15:52:09 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:52:09 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:52:09 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5816 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:52:09 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:52:10 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:10 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:10 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:10 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:10 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:52:10 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:52:10 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:52:10 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 883 ms
+2021-01-30 15:52:10 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:52:10 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-4} inited
+2021-01-30 15:52:10 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:52:11 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:52:11 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:52:11 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:52:11 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:52:11 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:52:11 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:52:11 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:52:11 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.775 seconds (JVM running for 1144.174)
+2021-01-30 15:52:11 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-30 15:52:17 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 15:52:17 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 4 ms
+2021-01-30 15:54:52 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:54:52 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-4} closed
+2021-01-30 15:54:52 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:54:52 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:54:52 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5816 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:54:52 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:54:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:54:52 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:54:52 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 681 ms
+2021-01-30 15:54:53 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:54:53 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-5} inited
+2021-01-30 15:54:53 [WARN]-[org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'piProductController': Unsatisfied dependency expressed through field 'piProductService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.pipihao.piyu.service.PiProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-01-30 15:54:53 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-5} closed
+2021-01-30 15:54:53 [INFO]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-30 15:54:53 [ERROR]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field piProductService in com.pipihao.piyu.controller.PiProductController required a bean of type 'com.pipihao.piyu.service.PiProductService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.pipihao.piyu.service.PiProductService' in your configuration.
+
+2021-01-30 15:54:54 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:54:54 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:54:54 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5816 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:54:54 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:54:55 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:55 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:55 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:55 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:55 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:54:55 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:54:55 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:54:55 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 591 ms
+2021-01-30 15:54:55 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:54:55 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-6} inited
+2021-01-30 15:54:55 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:54:56 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:54:56 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:54:56 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:54:56 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:54:56 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:54:56 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:54:56 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:54:56 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.242 seconds (JVM running for 1309.108)
+2021-01-30 15:54:56 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-30 15:55:03 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 15:55:03 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 3 ms
+2021-01-30 15:55:15 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 4636 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:55:15 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:55:15 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:55:15 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:55:16 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:55:16 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:55:16 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:55:16 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:55:16 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:55:16 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:55:17 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:55:17 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2564 ms
+2021-01-30 15:55:17 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:55:18 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 15:55:18 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:55:19 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:55:19 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:55:19 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:55:19 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:55:19 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:55:19 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:55:19 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:55:19 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 5.022 seconds (JVM running for 6.936)
+2021-01-30 15:55:27 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 15:55:27 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 10 ms
+2021-01-30 15:56:31 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:56:31 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 15:56:31 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:56:31 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:56:31 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 4636 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:56:31 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:56:32 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:32 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:32 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:32 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:32 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:56:32 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:56:32 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 895 ms
+2021-01-30 15:56:32 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:56:33 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-30 15:56:33 [WARN]-[org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'piProductController': Unsatisfied dependency expressed through field 'piProductService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'piProductServiceImpl' defined in file [D:\Projects\PiYU\pi-yu-back-end\target\classes\com\pipihao\piyu\service\impl\PiProductServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pipihao.piyu.service.impl.PiProductServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@62e44162]
+2021-01-30 15:56:33 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} closed
+2021-01-30 15:56:33 [INFO]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-30 15:56:33 [ERROR]-[org.springframework.boot.SpringApplication] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'piProductController': Unsatisfied dependency expressed through field 'piProductService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'piProductServiceImpl' defined in file [D:\Projects\PiYU\pi-yu-back-end\target\classes\com\pipihao\piyu\service\impl\PiProductServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pipihao.piyu.service.impl.PiProductServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@62e44162]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.pipihao.piyu.PiYuApplication.main(PiYuApplication.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'piProductServiceImpl' defined in file [D:\Projects\PiYU\pi-yu-back-end\target\classes\com\pipihao\piyu\service\impl\PiProductServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pipihao.piyu.service.impl.PiProductServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@62e44162]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1304)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 25 more
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.pipihao.piyu.service.impl.PiProductServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@62e44162]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	... 34 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/pipihao/piyu/mapper/PiProductMapper;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.pipihao.piyu.mapper.PiProductMapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 44 more
+2021-01-30 15:56:35 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 15:56:35 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 15:56:35 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 4636 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 15:56:35 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 15:56:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 15:56:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 15:56:36 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 15:56:36 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 884 ms
+2021-01-30 15:56:36 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 15:56:36 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-3} inited
+2021-01-30 15:56:36 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 15:56:36 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 15:56:36 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 15:56:36 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 15:56:36 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 15:56:36 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 15:56:37 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 15:56:37 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 15:56:37 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 1.573 seconds (JVM running for 84.711)
+2021-01-30 15:56:37 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-30 15:56:40 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 15:56:40 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 5 ms
+2021-01-30 18:57:05 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 18:57:05 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 18:57:05 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 18:57:05 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 18:57:07 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 16884 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 18:57:07 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 18:57:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 18:57:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 18:57:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 18:57:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 18:57:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 18:57:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 18:57:08 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 18:57:09 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 18:57:10 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 18:57:11 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 18:57:11 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 18:57:11 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 18:57:11 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 18:57:11 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 18:57:11 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 18:57:12 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 6.055 seconds (JVM running for 8.129)
+2021-01-30 18:57:13 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 18:57:13 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:05:37 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:05:37 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:05:37 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:05:37 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:05:38 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 13680 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:05:38 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:05:40 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:05:40 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:05:40 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:05:40 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:05:40 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:05:40 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:05:40 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:05:41 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:05:42 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:05:43 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:05:43 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:05:43 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:05:43 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:05:43 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:05:43 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:05:44 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 6.329 seconds (JVM running for 8.029)
+2021-01-30 19:05:45 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:05:45 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:07:52 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:07:52 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:07:52 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:07:52 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:07:53 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 15780 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:07:53 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:07:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:07:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:07:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:07:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:07:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:07:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:07:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:07:57 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:07:57 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:07:58 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:07:59 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:07:59 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:07:59 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:07:59 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:07:59 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:07:59 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 7.189 seconds (JVM running for 9.043)
+2021-01-30 19:08:01 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:08:01 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:10:20 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:10:20 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:10:21 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:10:21 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:10:22 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 10276 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:10:22 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:10:23 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:23 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:23 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:23 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:23 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:23 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:23 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:10:24 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:10:24 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:10:26 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:10:27 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:10:27 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:10:27 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:10:27 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:10:27 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:10:27 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 6.11 seconds (JVM running for 7.829)
+2021-01-30 19:10:28 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:10:28 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:10:49 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:10:49 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:10:50 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:10:50 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:10:51 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 14784 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:10:51 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:10:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:10:52 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:10:53 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:10:54 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:10:55 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:10:55 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:10:55 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:10:55 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:10:55 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:10:55 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:10:56 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 5.903 seconds (JVM running for 7.617)
+2021-01-30 19:10:57 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:10:57 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:11:19 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:11:19 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:11:19 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:11:19 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:11:20 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 15492 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:11:20 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:11:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:11:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:11:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:11:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:11:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:11:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:11:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:11:22 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:11:23 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:11:24 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:11:25 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:11:25 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:11:25 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:11:25 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:11:25 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:11:25 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 5.817 seconds (JVM running for 7.544)
+2021-01-30 19:11:26 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:11:26 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:17:10 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:17:10 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:17:11 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:17:11 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:17:12 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 2536 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:17:12 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:17:14 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:14 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:14 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:14 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:14 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:14 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:14 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:17:14 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:17:15 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:17:16 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:17:17 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:17:17 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:17:17 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:17:17 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:17:17 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:17:17 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 6.137 seconds (JVM running for 8.098)
+2021-01-30 19:17:18 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:17:18 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:17:47 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:17:47 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:17:47 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:17:47 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:17:48 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 9484 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:17:48 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:17:50 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:50 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:50 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:50 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:50 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:50 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:17:50 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:17:51 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:17:51 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:17:52 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:17:53 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:17:53 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:17:53 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:17:53 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:17:53 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:17:53 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 6.035 seconds (JVM running for 7.772)
+2021-01-30 19:17:55 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:17:55 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:18:33 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:18:33 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:18:33 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:18:33 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:18:34 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 14544 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:18:34 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:18:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:18:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:18:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:18:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:18:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:18:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:18:36 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:18:37 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:18:37 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:18:39 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:18:39 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:18:39 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:18:39 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:18:39 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:18:39 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:18:39 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 6.212 seconds (JVM running for 7.933)
+2021-01-30 19:18:41 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:18:41 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:19:18 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:19:18 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:19:18 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:19:18 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:19:19 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 6860 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:19:19 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:19:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:19:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:19:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:19:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:19:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:19:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:19:22 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:19:23 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:19:23 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:19:25 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:19:26 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:19:26 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:19:26 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:19:26 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:19:26 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:19:26 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 7.953 seconds (JVM running for 9.709)
+2021-01-30 19:19:28 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:19:28 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 19:20:13 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pipihao.service.UserAddressServiceTest], using SpringBootContextLoader
+2021-01-30 19:20:13 [INFO]-[org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.pipihao.service.UserAddressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-30 19:20:14 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-01-30 19:20:14 [INFO]-[org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5af3afd9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@323b36e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44ebcd03, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@694abbdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e005c4b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4567f35d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5ffead27, org.springframework.test.context.event.EventPublishingTestExecutionListener@6356695f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f18837a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@359f7cdf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fa268de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ee6e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4466af20, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a514af7]
+2021-01-30 19:20:15 [INFO]-[com.pipihao.service.UserAddressServiceTest] Starting UserAddressServiceTest on IBM with PID 9016 (started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 19:20:15 [INFO]-[com.pipihao.service.UserAddressServiceTest] No active profile set, falling back to default profiles: default
+2021-01-30 19:20:17 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:20:17 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:20:17 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:20:17 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:20:17 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:20:17 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 19:20:17 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 19:20:17 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 19:20:18 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 19:20:19 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:20:19 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 19:20:20 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 19:20:20 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 19:20:20 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 19:20:20 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 19:20:20 [INFO]-[com.pipihao.service.UserAddressServiceTest] Started UserAddressServiceTest in 6.023 seconds (JVM running for 7.74)
+2021-01-30 19:20:21 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 19:20:21 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 20:00:17 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 12504 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 20:00:17 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 20:00:17 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 20:00:17 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 20:00:18 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:00:18 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:00:18 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:00:18 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:00:18 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:00:18 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:00:18 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 20:00:19 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 20:00:19 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2081 ms
+2021-01-30 20:00:19 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 20:00:19 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 20:00:20 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 20:00:20 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 20:00:20 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 20:00:20 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 20:00:20 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 20:00:20 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 20:00:20 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 20:00:20 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 20:00:20 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.197 seconds (JVM running for 6.047)
+2021-01-30 20:00:41 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 20:00:41 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-30 20:02:03 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 16660 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 20:02:03 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 20:02:03 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 20:02:03 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 20:02:05 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:05 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:05 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:05 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:05 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:05 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:05 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 20:02:05 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 20:02:05 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2291 ms
+2021-01-30 20:02:06 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 20:02:06 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 20:02:06 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 20:02:07 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 20:02:07 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 20:02:07 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 20:02:07 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 20:02:07 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 20:02:07 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 20:02:07 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 20:02:07 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 4.443 seconds (JVM running for 6.345)
+2021-01-30 20:02:22 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 20:02:22 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 10 ms
+2021-01-30 20:02:54 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-30 20:02:54 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} closed
+2021-01-30 20:02:55 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 20:02:55 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 20:02:55 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 16660 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 20:02:55 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 20:02:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:02:56 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 20:02:56 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 20:02:56 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1499 ms
+2021-01-30 20:02:56 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 20:02:56 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-2} inited
+2021-01-30 20:02:57 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 20:02:57 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 20:02:57 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 20:02:57 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 20:02:57 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 20:02:57 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 20:02:57 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 20:02:57 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 20:02:57 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 2.246 seconds (JVM running for 56.392)
+2021-01-30 20:02:57 [INFO]-[org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] Condition evaluation unchanged
+2021-01-30 20:03:17 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 20:03:17 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 6 ms
+2021-01-30 20:03:17 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2021-01-30T17:43:03.000+00:00": expected format "yyyy-mm-dd HH:MM:ss"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2021-01-30T17:43:03.000+00:00": expected format "yyyy-mm-dd HH:MM:ss"
+ at [Source: (PushbackInputStream); line: 9, column: 27] (through reference chain: com.pipihao.piyu.pojo.UserAddress["createTime"])]
+2021-01-30 20:03:33 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2021-01-30T17:43:03.000+00:00": expected format "yyyy-mm-dd HH:MM:ss"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2021-01-30T17:43:03.000+00:00": expected format "yyyy-mm-dd HH:MM:ss"
+ at [Source: (PushbackInputStream); line: 9, column: 27] (through reference chain: com.pipihao.piyu.pojo.UserAddress["createTime"])]
+2021-01-30 20:05:32 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 14528 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 20:05:32 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 20:05:32 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 20:05:32 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 20:05:34 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:05:34 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:05:34 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:05:34 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:05:34 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:05:34 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:05:34 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 20:05:34 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 20:05:35 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2470 ms
+2021-01-30 20:05:35 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 20:05:35 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 20:05:36 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 20:05:36 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 20:05:36 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 20:05:36 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 20:05:36 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 20:05:36 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 20:05:36 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 20:05:36 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 20:05:36 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 5.357 seconds (JVM running for 7.437)
+2021-01-30 20:05:49 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 20:05:49 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 9 ms
+2021-01-30 20:06:45 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.pipihao.piyu.common.StateResult com.pipihao.piyu.controller.UserAddressController.deleteUserAddress(com.pipihao.piyu.pojo.UserAddress,javax.servlet.http.HttpServletRequest)]
+2021-01-30 20:20:21 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.pipihao.piyu.common.StateResult com.pipihao.piyu.controller.UserAddressController.deleteUserAddress(com.pipihao.piyu.pojo.UserAddress,javax.servlet.http.HttpServletRequest)]
+2021-01-30 20:21:08 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.pipihao.piyu.common.StateResult com.pipihao.piyu.controller.UserAddressController.deleteUserAddress(com.pipihao.piyu.pojo.UserAddress,javax.servlet.http.HttpServletRequest)]
+2021-01-30 20:21:23 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.pipihao.piyu.common.StateResult com.pipihao.piyu.controller.UserAddressController.deleteUserAddress(com.pipihao.piyu.pojo.UserAddress,javax.servlet.http.HttpServletRequest)]
+2021-01-30 20:21:29 [WARN]-[org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.pipihao.piyu.common.StateResult com.pipihao.piyu.controller.UserAddressController.deleteUserAddress(com.pipihao.piyu.pojo.UserAddress,javax.servlet.http.HttpServletRequest)]
+2021-01-30 20:25:07 [INFO]-[com.pipihao.piyu.PiYuApplication] Starting PiYuApplication on IBM with PID 5956 (D:\Projects\PiYU\pi-yu-back-end\target\classes started by pipihao in D:\Projects\PiYU\pi-yu-back-end)
+2021-01-30 20:25:07 [INFO]-[com.pipihao.piyu.PiYuApplication] No active profile set, falling back to default profiles: default
+2021-01-30 20:25:07 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-30 20:25:07 [INFO]-[org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-30 20:25:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'loginMapper' and 'com.pipihao.piyu.mapper.LoginMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:25:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductClassMapper' and 'com.pipihao.piyu.mapper.PiProductClassMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:25:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'piProductMapper' and 'com.pipihao.piyu.mapper.PiProductMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:25:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userAddressMapper' and 'com.pipihao.piyu.mapper.UserAddressMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:25:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'userMapper' and 'com.pipihao.piyu.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:25:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] Skipping MapperFactoryBean with name 'walletMapper' and 'com.pipihao.piyu.mapper.WalletMapper' mapperInterface. Bean already defined with the same name!
+2021-01-30 20:25:09 [WARN]-[org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.pipihao.piyu.mapper]' package. Please check your configuration.
+2021-01-30 20:25:10 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http)
+2021-01-30 20:25:10 [INFO]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 2961 ms
+2021-01-30 20:25:10 [INFO]-[com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure] Init DruidDataSource
+2021-01-30 20:25:11 [INFO]-[com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+2021-01-30 20:25:11 [INFO]-[org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-30 20:25:12 [WARN]-[org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-30 20:25:12 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-30 20:25:12 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-30 20:25:12 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-30 20:25:12 [INFO]-[tk.mybatis.mapper.autoconfigure.MapperCacheDisabler] Clear EntityHelper entityTableMap cache.
+2021-01-30 20:25:12 [INFO]-[org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729
+2021-01-30 20:25:12 [INFO]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-30 20:25:12 [INFO]-[com.pipihao.piyu.PiYuApplication] Started PiYuApplication in 5.943 seconds (JVM running for 8.71)
+2021-01-30 20:25:38 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+2021-01-30 20:25:38 [INFO]-[org.springframework.web.servlet.DispatcherServlet] Completed initialization in 11 ms

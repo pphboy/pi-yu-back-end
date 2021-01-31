@@ -13,7 +13,8 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 @ToString
 public class PiPage {
-    private int page;
-    private int size;
-    private int type; //1:在售，2:已售，3:下架，4:皮帖
+    private Integer page;
+    private Integer size;
+    private Integer type; //1:在售，2:已售，3:下架，4:皮帖
+    private Integer classId;
 }

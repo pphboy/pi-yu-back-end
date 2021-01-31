@@ -14,5 +14,4 @@ public interface PiProductClassMapper {
     @Select("select * from pi_product_class where id = #{id}")
     PiProductClass findPiProductClassById(int id);
 
-    /* 增删查改 */
 }

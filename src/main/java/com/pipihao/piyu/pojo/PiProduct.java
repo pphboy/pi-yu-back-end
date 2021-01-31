@@ -24,6 +24,7 @@ public class PiProduct implements Serializable {
     private String id; // UUID
     @JsonIgnore
     private int userId;
+    private User maker; //作者
     private String title;
     private int classId;
     private PiProductClass piProductClass;

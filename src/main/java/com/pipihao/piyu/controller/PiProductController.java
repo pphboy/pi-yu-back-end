@@ -17,6 +17,16 @@ public class PiProductController {
     @Autowired
     private PiProductService piProductService;
 
+    /**
+     * 获取首页的皮物 <br>
+     * 有分页
+     * @return
+     */
+    @PostMapping("/index")
+    public StateResult findIndexPiProduct(@RequestBody PiPage piPage){
+       return this.piProductService.findPiProductByClassIdAndPage(piPage);
+    }
+
     @PostMapping("/test")
     public String test(){
         return "test";
@@ -43,6 +53,18 @@ public class PiProductController {
     @PostMapping("get")
     public StateResult getPiProduct(@RequestBody Map<String,Object> map, HttpServletRequest request){
         return this.piProductService.getPiProductByUserId((String)map.get("id"),request.getHeader("token"));
+    }
+
+    /**
+     * 根据id获取皮物，使用map是因为发过来的数据是json数据
+     * 获取一个正常的皮物，是不需要token，这个是展示界面的接口
+     * 是没有被禁止的
+     * @param pid
+     * @return
+     */
+    @GetMapping("get")
+    public StateResult getPiProductNoToken(@RequestParam("pid")String pid){
+        return this.piProductService.getNormalPiProduct(pid);
     }
 
     /**

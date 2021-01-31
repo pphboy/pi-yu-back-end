@@ -1,5 +1,6 @@
 package com.pipihao.piyu.mapper;
 
+import com.pipihao.piyu.common.PiPage;
 import com.pipihao.piyu.pojo.PiProduct;
 import org.apache.ibatis.annotations.*;
 
@@ -14,7 +15,7 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
      * @return
      */
     @Insert("INSERT INTO `pi_product`(`id`, `user_id`, `title`, `class_id`, `price`, `address`, `content`, `status`, `down_shelf`, `sold_status`, `create_date`, `freight`, `trade_status`) " +
-            "VALUES (#{id},#{userId},#{title}, #{classId}, #{price},#{address},#{content},0,0,0,now(),#{freight}, NULL)")
+            "VALUES (#{id},#{userId},#{title}, #{classId}, #{price},#{address},#{content},1,0,0,now(),#{freight}, NULL)")
     boolean sendPiProduct(PiProduct piProduct);
 
     /**
@@ -71,6 +72,21 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
     PiProduct findPiProductByUserId(@Param("id") String id,@Param("userId") int userId);
 
     /**
+     * 获取皮物，获取没有被禁止的皮物
+     * @param id
+     * @return
+     */
+    @Select("select * from pi_product where id = #{id} and status = 1")
+    @Results(
+            value = {
+                    @Result(property = "id",column = "id"),
+                    @Result(property = "maker",column = "id",one = @One(select = "com.pipihao.piyu.mapper.UserMapper.getUserNameByPid")),
+                    @Result(property = "piProductClass",column = "class_id",one = @One(select = "com.pipihao.piyu.mapper.PiProductClassMapper.findPiProductClassById"))
+            }
+    )
+    PiProduct findNormalPiProduct(@Param("id") String id);
+
+    /**
      * 编辑皮物
      * @param piProduct
      * @return
@@ -94,5 +110,14 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
      */
     @Update("UPDATE `piyu`.`pi_product` SET down_shelf =1,down_date = now()  WHERE `id` = #{id} and `user_id` = #{userId} and sold_status = 0 and down_shelf = 0")
     boolean downPiProductById(@Param("id") String id,@Param("userId") Integer userId);
+
+    /**
+     * 注意：是皮物<br>
+     * 分页获取当前分类下皮物
+     * @param piPage
+     * @return
+     */
+    @Select("select * from pi_product where class_id = #{classId} and price is not null and freight is not null and `status` = 1 and down_shelf = 0 and sold_status = 0 order by create_date desc")
+    List<PiProduct> findPiProductByClassIdAndPage(PiPage piPage);
 
 }

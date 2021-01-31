@@ -2,6 +2,7 @@ package com.pipihao.piyu.common;
 import lombok.ToString;
 import org.apache.commons.lang3.StringUtils;
 
+import java.util.List;
 import java.util.Objects;
 
 
@@ -36,6 +37,37 @@ public class StateResult {
         }
     }
 
+    /**
+     * 数据效验返回类
+     * @param obj
+     * @param successMsg
+     * @param errorMsg
+     * @param successObj
+     * @param errorObj
+     * @return
+     */
+    public static StateResult getExample(Object obj,String successMsg,String errorMsg,Object successObj,Object errorObj){
+        if (obj == null) {
+            return StateResult.getExample(false,errorMsg,errorObj);
+        }else{
+            if(obj instanceof List){
+                if(((List<?>) obj).size() < 1){
+                    return StateResult.getExample(false,errorMsg,errorObj);
+                }
+            }
+            if(obj instanceof Boolean){
+                if(!(Boolean) obj){
+                    return StateResult.getExample(false,errorMsg,errorObj);
+                }
+            }
+            if(obj instanceof String){
+                if(StringUtils.isEmpty((String)obj)){
+                    return StateResult.getExample(false,errorMsg,errorObj);
+                }
+            }
+            return StateResult.getExample(true,successMsg,successObj);
+        }
+    }
     /**
      * 返回 信息
      * @param status

@@ -49,4 +49,13 @@ public interface UserMapper {
 
     @Select("select `birth_date`,`gender`,`address`,`introduction`,`head_image`,`alipay_account` from user where id = #{id}")
     public User getUserInfo(Integer id);
+
+
+    /**
+     * 根据文章id获取用户名
+     * @param pid
+     * @return
+     */
+    @Select("SELECT username,head_image FROM `user` u LEFT JOIN pi_product pp ON pp.user_id=u.id WHERE pp.id=#{pid}")
+    public User getUserNameByPid(String pid);
 }
