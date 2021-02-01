@@ -29,12 +29,13 @@ public interface CommentMapper extends Mapper<Comment> {
      * @param pid
      * @return
      */
-    @Results({
+    @Results(
+            id = "comment",
+            value = {
         @Result(property = "id",column = "id"),
         @Result(property = "user",column = "user_id",one = @One(select = "com.pipihao.piyu.mapper.UserMapper.getUserNameById")),
         @Result(property = "likeNumber",column = "id",one = @One(select = "getLikeNumber")),
         @Result(property = "rubbishNumber",column = "id",one = @One(select = "getDisLikeNumber"))
-
     })
     @Select("select * from `comment` where pi_id = #{pi} order by create_date desc")
     List<Comment> findCommentsByPiId(String pid);
@@ -62,4 +63,13 @@ public interface CommentMapper extends Mapper<Comment> {
      */
     @Insert("INSERT INTO `comment_like`(`c_id`, `like`, `user_id`, `create_date`) VALUES (#{cid}, #{like},#{userId},now())")
     boolean sendCommentLike(Map<String, Object> map);
+
+
+    /**
+     * 获取最新的评论
+     * @return
+     */
+    @ResultMap("comment")
+    @Select("select * from `comment` where status = 1 order by create_date desc limit 5")
+    List<Comment> findNewComments();
 }

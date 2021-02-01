@@ -22,6 +22,16 @@ public class PiProductServiceImpl implements PiProductService {
     @Autowired
     private PiProductMapper piProductMapper;
 
+    /**
+     * 获取最新的5条皮帖
+     * @return
+     */
+    @Override
+    public StateResult findNewPiProductArticle() {
+        List<PiProduct> theNewPiProductArticle = this.piProductMapper.findTheNewPiProductArticle();
+        return StateResult.getExample(theNewPiProductArticle,"获取成功","获取失败",theNewPiProductArticle);
+    }
+
     @Override
     public StateResult sendPiProduct(PiProduct piProduct,String totken) {
         piProduct.setUserId(Integer.parseInt(JWTUtils.verifyToken(totken).getClaim("userId").asString()));

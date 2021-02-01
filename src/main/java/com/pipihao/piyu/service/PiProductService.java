@@ -1,15 +1,14 @@
 package com.pipihao.piyu.service;
 
-import com.github.pagehelper.PageInfo;
 import com.pipihao.piyu.common.PiPage;
 import com.pipihao.piyu.common.StateResult;
 import com.pipihao.piyu.pojo.PiProduct;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
 public interface PiProductService {
+
+    public StateResult findNewPiProductArticle();
 
     /**
      * 发布一个未审核的皮物

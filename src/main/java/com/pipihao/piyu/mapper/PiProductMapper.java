@@ -78,6 +78,7 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
      */
     @Select("select * from pi_product where id = #{id} and status = 1")
     @Results(
+            id="PiShow",
             value = {
                     @Result(property = "id",column = "id"),
                     @Result(property = "maker",column = "id",one = @One(select = "com.pipihao.piyu.mapper.UserMapper.getUserNameByPid")),
@@ -121,10 +122,11 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
     List<PiProduct> findPiProductByClassIdAndPage(PiPage piPage);
 
     /**
-     * 
+     * 获取最新的5点皮帖
      * @return
      */
-    @Select()
+    @Select("select * from pi_product where price is null and freight is null and status = 1 order by create_date desc limit 5")
+    @ResultMap("PiShow")
     List<PiProduct> findTheNewPiProductArticle();
 
 }

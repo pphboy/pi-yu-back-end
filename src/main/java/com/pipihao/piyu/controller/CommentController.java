@@ -50,4 +50,13 @@ public class CommentController {
         return this.commentService.sendComment(comment,request.getHeader("token"));
     }
 
+
+    /**
+     * 获取首页最新的皮论
+     * @return
+     */
+    @GetMapping("/index")
+    public StateResult findNewComment(){
+        return this.commentService.findNewComments();
+    }
 }

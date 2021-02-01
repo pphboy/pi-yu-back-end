@@ -63,4 +63,14 @@ public class CommentServiceImpl implements CommentService {
             return StateResult.getExample(this.commentMapper.sendCommentLike(map),"点赞成功","点赞失败",null);
         }
     }
+
+    /**
+     * 获取最新皮论
+     * @return
+     */
+    @Override
+    public StateResult findNewComments() {
+        List<Comment> newComments = this.commentMapper.findNewComments();
+        return StateResult.getExample(newComments,"获取成功","获取失败，可能没有最新评论",newComments);
+    }
 }

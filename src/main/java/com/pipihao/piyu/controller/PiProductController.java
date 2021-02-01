@@ -18,6 +18,16 @@ public class PiProductController {
     private PiProductService piProductService;
 
     /**
+     * 获取最新的5条皮帖
+     * @return
+     */
+    @PostMapping("index/article")
+    public StateResult getNewPiArticle(){
+        return this.piProductService.findNewPiProductArticle();
+    }
+
+
+    /**
      * 获取首页的皮物 <br>
      * 有分页
      * @return

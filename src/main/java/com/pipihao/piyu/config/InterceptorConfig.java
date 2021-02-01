@@ -38,8 +38,10 @@ public class InterceptorConfig implements WebMvcConfigurer {
                         "/user/register",
                         "/product/get",
                         "/product/index",
+                        "/product/index/article",
                         "/file/upload",
                         "/comment/pi",
+                        "/comment/index", //首页的皮皮论
                         "/class/all" //所有分类
                 ); // 不拦截的链接前端得加上“/”
     }

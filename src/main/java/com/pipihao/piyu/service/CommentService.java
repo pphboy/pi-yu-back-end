@@ -35,4 +35,10 @@ public interface CommentService  {
      * @return
      */
     StateResult commentLike(Map<String, Object> map,String token);
+
+    /**
+     * 获取最新的皮论
+     * @return
+     */
+    StateResult findNewComments();
 }
