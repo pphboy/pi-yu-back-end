@@ -17,4 +17,5 @@ public class PiPage {
     private Integer size;
     private Integer type; //1:在售，2:已售，3:下架，4:皮帖
     private Integer classId;
+    private String pid; // 皮物id
 }

@@ -58,4 +58,7 @@ public interface UserMapper {
      */
     @Select("SELECT username,head_image FROM `user` u LEFT JOIN pi_product pp ON pp.user_id=u.id WHERE pp.id=#{pid}")
     public User getUserNameByPid(String pid);
+
+    @Select("SELECT username,head_image FROM `user` where id = #{userId}")
+    public User getUserNameById(Integer userId);
 }

@@ -33,9 +33,9 @@ public class User implements Serializable {
     private String password;
     @JsonIgnore
     private String salt;
-    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    @JsonFormat(pattern = "yyyy-Mm-dd HH:mm:ss")
     private Date registerDate;
-    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date lastLoginTime;
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date birthDate;
@@ -43,6 +43,6 @@ public class User implements Serializable {
     @JsonIgnore
     private Boolean activeStatus;
     private String alipayAccount; // 支付宝
-    @JsonFormat(pattern = "yyyy-mm-dd HH:MM:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date updateDate;//更新时间账号
 }

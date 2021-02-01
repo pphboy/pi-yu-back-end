@@ -120,4 +120,11 @@ public interface PiProductMapper extends tk.mybatis.mapper.common.Mapper<PiProdu
     @Select("select * from pi_product where class_id = #{classId} and price is not null and freight is not null and `status` = 1 and down_shelf = 0 and sold_status = 0 order by create_date desc")
     List<PiProduct> findPiProductByClassIdAndPage(PiPage piPage);
 
+    /**
+     * 
+     * @return
+     */
+    @Select()
+    List<PiProduct> findTheNewPiProductArticle();
+
 }
